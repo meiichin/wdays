@@ -25,4 +25,12 @@ class HomeController extends Controller
     {
         return view('home');
     }
+    public function hariKerja()
+    {
+        return view('hari_kerja');
+    }
+    public function periodeGajian()
+    {
+        return view('periode_gajian');
+    }
 }

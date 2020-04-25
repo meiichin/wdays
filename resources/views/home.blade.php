@@ -3,6 +3,7 @@
 @section('title')
     <h2 class="page-title">Dashboard</h2>
 @endsection
+@section('dashboard', 'active')
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
