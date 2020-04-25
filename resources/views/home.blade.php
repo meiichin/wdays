@@ -1,5 +1,8 @@
-@extends('layouts.app')
+@extends('layouts.base')
 
+@section('title')
+    <h2 class="page-title">Dashboard</h2>
+@endsection
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
